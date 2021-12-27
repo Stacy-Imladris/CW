@@ -1,0 +1,1 @@
+const getAge = (inputString) => Number(inputString.split(" ")[0])
