@@ -1,0 +1,1 @@
+const superSize = (num) => Number(num.toString().split('').sort().reverse().join(''))
