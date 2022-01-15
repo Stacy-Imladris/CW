@@ -1,0 +1,1 @@
+const explode = (s) => s.split('').map(i => i.repeat(i)).join('')
