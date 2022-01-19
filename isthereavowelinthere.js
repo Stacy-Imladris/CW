@@ -1,0 +1,1 @@
+const isVow = (a) => a.map(i => 'aeiou'.includes(String.fromCharCode(i)) ? String.fromCharCode(i) : i)
