@@ -1,0 +1,1 @@
+const toFreud = (string) => string ? 'sex '.repeat(string.split(' ').length).trim() : string
