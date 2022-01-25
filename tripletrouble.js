@@ -1,0 +1,1 @@
+const tripleTrouble = (one, two, three) => one.split('').map((m, i) => m + two[i] + three[i]).join('')
