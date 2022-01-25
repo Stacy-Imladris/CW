@@ -1,0 +1,1 @@
+const index = (array, n) => array.length - 1 < n ? -1 : Math.pow(array[n], n)
