@@ -1,0 +1,1 @@
+const lowercaseCount = (str) => str.split('').reduce((sum, i) => i.toUpperCase() !== i ? sum += 1 : sum, 0)
