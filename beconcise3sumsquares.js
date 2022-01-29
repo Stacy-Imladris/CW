@@ -1,0 +1,1 @@
+const sumSquares = (array) => array.map(m => m ** 2).reduce((sum, i) => sum += i, 0)
