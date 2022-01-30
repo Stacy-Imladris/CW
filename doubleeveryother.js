@@ -1,0 +1,1 @@
+const doubleEveryOther = (a) => a.map((m, i) => i % 2 === 1 ? m * 2 : m)
