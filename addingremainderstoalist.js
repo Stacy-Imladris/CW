@@ -1,0 +1,1 @@
+const solve = (nums, div) => nums.map(i => i % div + i)
