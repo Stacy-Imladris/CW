@@ -1,0 +1,1 @@
+const solution = (str, ending) => !ending || ending === str.slice(-ending.length)
