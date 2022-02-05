@@ -1,0 +1,1 @@
+const lastDigit = (n, d) => d <= 0 ? [] : n.toString().slice(-d).split('').map(m => +m)
