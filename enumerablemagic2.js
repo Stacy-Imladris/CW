@@ -1,0 +1,1 @@
+const any = (arr, fun) => arr.some(s => fun(s))
