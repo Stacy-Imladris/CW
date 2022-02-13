@@ -1,0 +1,1 @@
+const splitAndMerge = (string, separator) => string.split(' ').map(m => m.split('').join(separator)).join(' ')
