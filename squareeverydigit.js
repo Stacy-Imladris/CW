@@ -1,0 +1,1 @@
+const squareDigits = (num) => +num.toString().split('').map(m => m * m).join('')
