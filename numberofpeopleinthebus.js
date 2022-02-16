@@ -1,0 +1,1 @@
+const number = (busStops) => busStops.reduce((res, r) => res + r[0] - r[1], 0)
