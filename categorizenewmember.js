@@ -1,0 +1,1 @@
+const openOrSenior = (data) => data.map(m => m[0] >= 55 && m[1] > 7 ? 'Senior' : 'Open')
