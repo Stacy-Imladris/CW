@@ -1,0 +1,1 @@
+const validSpacing = (s) => s.length === s.trim().split(' ').filter(f => f).join(' ').length
