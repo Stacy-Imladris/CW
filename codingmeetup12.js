@@ -1,0 +1,1 @@
+const findAdmin = (list, lang) => list.filter(f => f.language === lang && f.githubAdmin === 'yes')
