@@ -1,0 +1,1 @@
+const findOddNames = (list) => list.filter(f => f.firstName.split('').map(i => i.charCodeAt(0)).reduce((sum, r) => sum + r) % 2)
