@@ -1,0 +1,1 @@
+const noOdds = (values) => values.filter(f => !(f % 2))
