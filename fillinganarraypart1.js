@@ -1,0 +1,1 @@
+const arr = N => N ? Array(N).fill(1).map((m, i) => i) : []
