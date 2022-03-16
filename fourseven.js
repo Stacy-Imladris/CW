@@ -1,0 +1,1 @@
+const fourSeven = (n) => n === 4 && 7 || n === 7 && 4 || 0
