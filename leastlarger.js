@@ -1,0 +1,1 @@
+const leastLarger = (a, i) => a.indexOf(a.filter(f => f > a[i]).sort((a, b) => a - b)[0])
