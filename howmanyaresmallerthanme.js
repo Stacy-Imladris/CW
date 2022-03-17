@@ -1,0 +1,1 @@
+const smaller = (nums) => nums.map((m, i) => nums.filter((f, ind) => f < m && ind > i).length)
