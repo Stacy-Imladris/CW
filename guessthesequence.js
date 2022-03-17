@@ -1,0 +1,1 @@
+const sequence = (x) => Array(x).fill(0).map((m, i) => i + 1).sort()
