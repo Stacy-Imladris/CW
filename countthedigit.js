@@ -1,0 +1,1 @@
+const nbDig = (n, d) => Array(n + 1).fill(0).map((m, i) => i ** 2).join('').split('').filter(f => +f === d).length
