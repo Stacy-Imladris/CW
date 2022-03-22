@@ -1,0 +1,1 @@
+const sortByLength = (array) => array.sort((a, b) => a.length > b.length ? 1 : a.length < b.length ? -1 : 0)
