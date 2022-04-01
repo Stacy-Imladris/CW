@@ -1,0 +1,1 @@
+const sumDigits = (number) => Math.abs(number).toString().split('').map(Number).reduce((acc, r) => acc + r)
