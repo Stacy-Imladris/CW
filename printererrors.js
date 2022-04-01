@@ -1,0 +1,1 @@
+const printerError = (s) => `${s.split('').filter(m => m.charCodeAt() < 97 || m.charCodeAt() > 109).length}/${s.length}`
