@@ -1,0 +1,1 @@
+const solve = (arr) => arr.filter((f, i) => !arr.includes(f, i + 1))
