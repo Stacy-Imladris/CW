@@ -1,0 +1,1 @@
+const searchNames = (logins) => logins.filter(f => f[0].slice(-1) === '_')
