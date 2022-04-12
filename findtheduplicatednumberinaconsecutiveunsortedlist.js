@@ -1,0 +1,1 @@
+const findDup = arr => arr.sort((a, b) => a - b).filter((f, i, array) => f === array[i - 1])[0]
