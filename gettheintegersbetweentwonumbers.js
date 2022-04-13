@@ -1,0 +1,1 @@
+const range = (startNum, endNum) => Array(endNum - startNum - 1).fill(0).map((m, i) => i + startNum + 1)
