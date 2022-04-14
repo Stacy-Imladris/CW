@@ -1,0 +1,1 @@
+const missingNo = (nums) => !nums.includes(100) ? 100 : nums.sort((a, b) => a - b).filter((f, i) => f !== i)[0] - 1
