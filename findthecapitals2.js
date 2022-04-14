@@ -1,0 +1,1 @@
+const capital = capitals => capitals.map(m => `The capital of ${m.state ? m.state : m.country} is ${m.capital}`)
