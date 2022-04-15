@@ -1,0 +1,1 @@
+const oddOne = (arr) => arr.findIndex(f => Math.abs(f % 2) === 1)
