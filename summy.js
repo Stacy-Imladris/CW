@@ -1,0 +1,1 @@
+const summy = (stringOfInts) => stringOfInts.split(' ').map(Number).reduce((acc, r) => acc + r)
