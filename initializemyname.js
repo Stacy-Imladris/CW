@@ -1,0 +1,1 @@
+const initializeNames = (name) => name.split(' ').map((m, i, arr) => i !== 0 && i !== arr.length - 1 ? m[0] + '.' : m).join(' ')
