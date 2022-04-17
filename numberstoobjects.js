@@ -1,0 +1,1 @@
+const numObj = (s) => s.map(m => ({[m.toString()]: String.fromCharCode(m)}))
