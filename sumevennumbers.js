@@ -1,0 +1,1 @@
+const sumEvenNumbers = (input) => input.length ? input.reduce((acc, r) => r % 2 === 0 ? acc + r : acc, 0) : 0
