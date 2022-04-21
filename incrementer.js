@@ -1,0 +1,1 @@
+const incrementer = (nums) => nums.map((m, i) => m + i + 1 < 10 ? m + i + 1 : (m + i + 1) % 10)
