@@ -1,0 +1,1 @@
+const solve = (a, b) => a.split('').filter(f => !b.includes(f)).join('') + b.split('').filter(f => !a.includes(f)).join('')
