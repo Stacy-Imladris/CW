@@ -1,0 +1,1 @@
+const modifiedSum = (a, n) => a.map(m => m ** n).reduce((acc, r) => acc + r) - a.reduce((acc, r) => acc + r)
