@@ -1,0 +1,1 @@
+const capMe = (names) => names.map(m => m[0].toUpperCase() + m.toLowerCase().slice(1))
