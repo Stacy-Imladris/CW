@@ -1,0 +1,1 @@
+const product = (values) => values && values.length ? values.reduce((prod, r) => prod * r) : null
