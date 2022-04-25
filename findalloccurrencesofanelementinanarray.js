@@ -1,0 +1,1 @@
+const findAll = (array, n) => array.map((m, i) => m === n ? i : null).filter(f => f !== null)
