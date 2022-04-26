@@ -1,0 +1,1 @@
+const borrow = (s) => s.replace(/[\s.,\/#!$%\^&\*;:{}=\-_`~()?]/g,"").toLowerCase()
