@@ -1,0 +1,1 @@
+const solution = (string, limit) => string.length <= limit ? string : string.slice(0, limit) + '...'
