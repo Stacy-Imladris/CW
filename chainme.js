@@ -1,0 +1,1 @@
+const chain = (input, fs) => fs.reduce((i, r) => r(i), input)
