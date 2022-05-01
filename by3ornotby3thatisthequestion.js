@@ -1,0 +1,1 @@
+const divisibleByThree = (str) => Number.isInteger(str.split('').map(Number).reduce((acc, r) => acc + r) / 3)
