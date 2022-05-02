@@ -1,0 +1,1 @@
+const filterHomogenous = (arrays) => arrays.filter(f => f.length && f.every(e => typeof e === typeof f[0]))
