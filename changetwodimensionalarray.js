@@ -1,0 +1,1 @@
+const matrix = (array) => array.map((m, i) => m.map((el, ind) => i === ind ? (el < 0 ? 0 : 1) : el))
