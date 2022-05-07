@@ -1,0 +1,1 @@
+const insertDash = (num) => [...num.toString()].map((m, i, arr) => m % 2 && arr[i - 1] % 2 ? '-' + m : m).join('')
