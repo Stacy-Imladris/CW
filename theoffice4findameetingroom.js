@@ -1,0 +1,1 @@
+const meeting = (x) => x.findIndex(f => f === 'O') >= 0 ? x.findIndex(f => f === 'O') : 'None available!'
