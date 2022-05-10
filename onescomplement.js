@@ -1,0 +1,1 @@
+const onesComplement = (n) => [...n].map(m => m === '1' ? '0' : '1').join('')
