@@ -1,0 +1,1 @@
+const evil = (n) => [...n.toString(2)].filter(f => f === '1').length % 2 ? `It's Odious!` : `It's Evil!`
