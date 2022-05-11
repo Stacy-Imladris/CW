@@ -1,0 +1,1 @@
+const tidyNumber = (n) => [...n.toString()].every((e, i, arr) => i === 0 || e >= arr[i - 1])
