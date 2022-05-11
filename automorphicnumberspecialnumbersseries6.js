@@ -1,0 +1,1 @@
+const automorphic = (n) => n.toString() === (n**2).toString().slice(-n.toString().length) ? 'Automorphic' : 'Not!!'
