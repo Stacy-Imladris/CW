@@ -1,0 +1,1 @@
+const disariumNumber = (n) => n === [...n.toString()].map((m, i) => Math.pow(m, i + 1)).reduce((acc, r) => acc + r) ? 'Disarium !!' : 'Not !!'
