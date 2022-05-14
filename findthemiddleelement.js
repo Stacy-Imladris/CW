@@ -1,0 +1,1 @@
+const gimme = (triplet) => triplet.findIndex(f => f === [...triplet].sort((a, b) => a - b)[1])
