@@ -1,0 +1,1 @@
+const pattern = (n) => Array(n).fill(1).map((m, i) => i === 0 ? `${i + 1}` : `1${'*'.repeat(i)}${i + 1}`).join('\n')
