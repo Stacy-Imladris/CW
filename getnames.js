@@ -1,0 +1,1 @@
+const getNames = data => data.map(m => m.name)
