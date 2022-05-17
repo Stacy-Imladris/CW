@@ -1,0 +1,1 @@
+const compose = (...funcs) => (n) => +funcs.reduceRight((res, r) => r(res), n).toString()
