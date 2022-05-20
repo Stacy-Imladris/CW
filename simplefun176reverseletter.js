@@ -1,0 +1,1 @@
+const reverseLetter = (str) => [...str].reverse().join('').replace(/[^a-z]/gi, '')
