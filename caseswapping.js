@@ -1,0 +1,1 @@
+const swap = str => [...str].map(m => m.toLowerCase() === m ? m.toUpperCase() : m.toLowerCase()).join('')
