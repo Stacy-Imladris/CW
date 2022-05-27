@@ -1,0 +1,1 @@
+const bingo = a => ['b', 'i', 'n', 'g', 'o'].every(e => String.fromCharCode(...a.map(m => m + 96)).includes(e)) ? 'WIN' : 'LOSE'
