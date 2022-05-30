@@ -1,0 +1,1 @@
+const pigIt = str => str.split(' ').map(m => !'!?'.includes(m) ? m.slice(1) + m[0] + 'ay' : m).join(' ')
