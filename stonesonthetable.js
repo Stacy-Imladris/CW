@@ -1,0 +1,1 @@
+const solve = stones => stones.length - [...stones].filter((f, i) => i === 0 || stones[i - 1] !== f).length
