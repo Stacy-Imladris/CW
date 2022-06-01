@@ -1,0 +1,1 @@
+const loopArr = (arr, direction, steps) => direction === 'left' ? arr.splice(steps).concat(arr) : arr.splice(-steps).concat(arr)
