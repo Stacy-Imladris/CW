@@ -1,0 +1,1 @@
+const arr2bin = arr => !arr.length ? '0' : arr.map(m => typeof m !== 'number' ? 0 : m).reduce((acc, r) => acc + r).toString(2)
