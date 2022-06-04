@@ -1,0 +1,1 @@
+const priceIsRight = (numbers, target) => numbers.filter(f => f <= target).sort((a, b) => b - a)[0]
