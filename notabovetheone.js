@@ -1,0 +1,1 @@
+const binaryCleaner = arr => [arr.filter(f => f <= 1), arr.map((m, i) => m > 1 ? i : '-').filter(f => f !== '-')]
