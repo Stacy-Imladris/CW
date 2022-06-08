@@ -1,0 +1,1 @@
+const countName = (anArr, name) => anArr.filter(f => f === name).length
