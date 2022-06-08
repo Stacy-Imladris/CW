@@ -1,0 +1,1 @@
+const average = scores => Math.round(scores.reduce((acc, r) => acc + r) / scores.length)
