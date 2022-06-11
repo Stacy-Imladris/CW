@@ -1,0 +1,1 @@
+const trim = x => x.map((m, i) => i !== x.length - 1 ? m.map(el => el.replace('J', '|')) : m.map(el => el.replace(/[|J]/, '...')))
