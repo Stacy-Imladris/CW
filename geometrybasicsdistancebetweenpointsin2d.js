@@ -1,0 +1,1 @@
+const distanceBetweenPoints = (a, b) => Math.sqrt((a.y - b.y) ** 2 + (b.x - a.x) ** 2)
