@@ -1,0 +1,1 @@
+const fiveLine = s => Array(5).fill(0).map((m, i) => `${s.trim().repeat(i + 1)}`).join('\n')
