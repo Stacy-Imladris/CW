@@ -1,0 +1,1 @@
+const sumSquareEvenRootOdd = ns => +ns.map(m => m % 2 ? Math.sqrt(m) : m ** 2).reduce((acc, r) => acc + r).toFixed(2)
