@@ -1,0 +1,1 @@
+const divisibleByLast = n => [...n.toString()].map((m, i, arr) => m % arr[i - 1] === 0)
