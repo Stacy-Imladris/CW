@@ -1,0 +1,1 @@
+const capitalize = (s, arr) => [...s].map((m, i) => arr.includes(i) ? m.toUpperCase() : m).join('')
