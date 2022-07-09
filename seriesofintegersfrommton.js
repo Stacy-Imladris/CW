@@ -1,0 +1,1 @@
+const generateIntegers = (m, n) => Array(n - m + 1).fill(0).map((el, i) => i + m)
