@@ -1,0 +1,1 @@
+const solve = arr => arr.filter((f, i) => i === arr.length - 1 || arr.slice(i + 1).every(e => e < f))
