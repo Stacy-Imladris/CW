@@ -1,0 +1,1 @@
+const factory = x => arr => arr.map(m => m * x)
