@@ -1,0 +1,1 @@
+const testit = (a, b) => [...new Set(a)].concat([...new Set(b)]).sort((a, b) => a - b)
