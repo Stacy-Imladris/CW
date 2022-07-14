@@ -1,0 +1,1 @@
+const spacey = array => array.map((m, i) => array.slice(0, i + 1).join(''))
