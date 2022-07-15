@@ -1,0 +1,1 @@
+const toNumberArray = stringArray => stringArray.map(Number)
