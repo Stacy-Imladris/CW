@@ -1,0 +1,1 @@
+const letterCheck = arr => [...arr[1].toLowerCase()].every(e => arr[0].toLowerCase().includes(e))
