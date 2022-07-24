@@ -1,0 +1,1 @@
+const perfectRoots = n => Number.isInteger(Math.sqrt(Math.sqrt(Math.sqrt(n))))
