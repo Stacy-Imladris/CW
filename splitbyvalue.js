@@ -1,0 +1,1 @@
+const splitByValue = (k, elements) => elements.filter(f => f < k).concat(elements.filter(f => f >= k))
