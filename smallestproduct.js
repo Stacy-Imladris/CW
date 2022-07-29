@@ -1,0 +1,1 @@
+const smallestProduct = arr => Math.min(...arr.map(m => m.reduce((acc, r) => acc * r)))
