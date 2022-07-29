@@ -1,0 +1,1 @@
+const vowelChange = (str, vow) => str.replace(/[aouie]/g, vow)
