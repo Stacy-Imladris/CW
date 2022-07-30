@@ -1,0 +1,1 @@
+const arrayPreviousLess = arr => arr.map((m, i) => arr.slice(0, i).reverse().find(f => f < m) || -1)
