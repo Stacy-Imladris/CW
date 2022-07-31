@@ -1,0 +1,1 @@
+const bump = x => [...x].filter(f => f === 'n').length <= 15 ? 'Woohoo!' : 'Car Dead'
