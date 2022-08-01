@@ -1,0 +1,1 @@
+const removeRotten = bagOfFruits => bagOfFruits ? bagOfFruits.map(m => m.toLowerCase().replace('rotten', '')) : []
