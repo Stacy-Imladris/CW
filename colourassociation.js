@@ -1,0 +1,1 @@
+const colourAssociation = array => array.map(m => ({[m[0]]: m[1]}))
