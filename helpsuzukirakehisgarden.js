@@ -1,0 +1,1 @@
+const rakeGarden = garden => garden.split(' ').map(m => ['rock', 'gravel'].includes(m) ? m : 'gravel').join(' ')
