@@ -1,0 +1,1 @@
+const counterEffect = hitCount => [...hitCount].map(m => Array(+m + 1).fill(0).map((m, i) => i))
