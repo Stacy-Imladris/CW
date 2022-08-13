@@ -1,0 +1,1 @@
+const sortList = (sortBy, list) => list.sort((a, b) => a[sortBy] < b[sortBy] ? 1 : -1)
