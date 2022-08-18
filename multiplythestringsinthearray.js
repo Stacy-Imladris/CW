@@ -1,0 +1,1 @@
+const arrMultiply = arr => arr.reduce((acc, r) => acc * r, 1).toString()
