@@ -1,0 +1,1 @@
+const tea42 = input => [...input.toString()].map(m => m === '2' ? 't' : m).join('')
