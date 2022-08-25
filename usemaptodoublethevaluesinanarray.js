@@ -1,0 +1,1 @@
+const double = array => array.map(m => m * 2)
