@@ -1,0 +1,1 @@
+const convert = number => number.toString().match(/.{1,2}/g).map(m => String.fromCharCode(+m)).join('')
