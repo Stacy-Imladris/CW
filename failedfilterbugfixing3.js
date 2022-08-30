@@ -1,0 +1,1 @@
+const FilterNumbers = str => str.split('').filter(c => isNaN(+c)).join('')
