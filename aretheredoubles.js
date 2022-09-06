@@ -1,0 +1,1 @@
+const doubleCheck = str => !![...str.toLowerCase()].filter((f, i, arr) => i !== 0 && f === arr[i - 1]).length
