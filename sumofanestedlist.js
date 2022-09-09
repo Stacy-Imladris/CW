@@ -1,0 +1,1 @@
+const sumNested = arr => arr.flat(Infinity).reduce((acc, r) => acc + r, 0)
