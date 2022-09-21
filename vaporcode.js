@@ -1,0 +1,1 @@
+const vaporcode = string => [...string.replace(/[ ]/g, '').toUpperCase()].join('  ')
