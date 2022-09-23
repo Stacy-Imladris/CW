@@ -1,0 +1,1 @@
+let isSquare = arr => arr.length ? arr.every(e => !(Math.sqrt(e) % 1)) : undefined
