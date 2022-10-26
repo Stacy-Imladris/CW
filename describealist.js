@@ -1,0 +1,1 @@
+const describeList = list => list.length === 1 ? 'singleton' : list.length === 0 ? 'empty' : 'longer'
