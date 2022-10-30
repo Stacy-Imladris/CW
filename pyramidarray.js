@@ -1,0 +1,1 @@
+const pyramid = n => Array(n).fill(0).map((m, i) => Array(i + 1).fill(1))
