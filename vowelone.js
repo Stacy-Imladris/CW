@@ -1,0 +1,1 @@
+const vowelOne = s => [...s].map(m => /[aeiou]/i.test(m) ? 1 : 0).join('')
